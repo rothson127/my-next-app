@@ -13,13 +13,10 @@ export default async function Page() {
             <NavBar />
 
             <div className="relative z-30">
-                <div className="_remittix_content">
-                    <UseFirstsect />
-                    <UseSecondsect />
-                    <UseThirdsect />
-                    <UseFourthsect />
-                    
-                </div>
+                <UseFirstsect />
+                <UseSecondsect />
+                <UseThirdsect />
+                <UseFourthsect />
             </div>
 
             <Footer />

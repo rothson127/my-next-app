@@ -103,7 +103,7 @@ export default function MarqueeBar() {
                         className="top-left"
                         src={Header}
                         alt="header"
-                                                                    />
+                    />
                 </div>
             </main>
             <div className="relative flex items-center gap-4 lg:hidden z-40 pr-4 lg:pr-12">

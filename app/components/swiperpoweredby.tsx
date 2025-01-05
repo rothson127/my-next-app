@@ -5,10 +5,6 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper/css';
-
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 
 import Metamask from "../images/power/metamask.png";
 import Uniswap from "../images/power/uniswap.png";
@@ -32,10 +28,10 @@ const SwiperPowerdBy: React.FC<SwiperPowerdByProps> = ({ className }) => {
         <Swiper
             spaceBetween={50}
             loop={true}
-             autoplay={{
-                 delay: 3000,
-            //     disableOnInteraction: false,
-             }}
+            autoplay={{
+                delay: 3000,
+                //     disableOnInteraction: false,
+            }}
             modules={[Autoplay]}
             breakpoints={{
                 // Define breakpoints for responsive behavior

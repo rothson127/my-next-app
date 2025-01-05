@@ -17,20 +17,16 @@ export default function Home() {
       <NavBar />
 
       <div className="relative z-30">
-        <div className="_remittix_content">
           <Firstsect />
           <Secondsect />
           <Thirdsect />
           <Thirdsect2 />
           <Fourthsect />
           <Fifthsect />
-          <Sixthsect />          
-        </div>
+          <Sixthsect />
       </div>
 
       <Footer />
-
-      <div className="Toastify"></div>
     </div>
 
   );

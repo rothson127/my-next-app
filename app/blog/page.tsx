@@ -11,10 +11,8 @@ export default async function Page() {
             <NavBar />
 
             <div className="relative z-30">
-                <div className="_remittix_content">
-                    <BlogFirstsect />
-                    <BlogSecondsect />                    
-                </div>
+                <BlogFirstsect />
+                <BlogSecondsect />
             </div>
 
             <Footer />

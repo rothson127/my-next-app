@@ -102,7 +102,7 @@ export default function HowSecondsect() {
                                     Payment currency
                                 </span>
                                 <div className="flex items-center gap-1 bg-[#111B1F] rounded-lg border border-[#FFFFFF1F] p-2">
-                                    <Image src={Xrp} alt=""/>
+                                    <Image src={Xrp} alt="" />
                                     <span className="text-[10px] lg:text-[14px]">XRP</span>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@ export default function HowSecondsect() {
                     <Image
                         src={Line1}
                         className="h-0 lg:h-[350px] lg:w-[420px] lg:absolute bottom-0 right-[70px]"
-                                                                        alt=""
+                        alt=""
                     />
                 </div>
                 <div className="flex flex-col gap-2 lg:relative lg:w-[900px] lg:h-[900px] mb-4">
@@ -170,7 +170,7 @@ export default function HowSecondsect() {
                                 <div className="flex flex-col items-center justify-between gap-2 pt-4">
                                     <div className="flex flex-col items-center gap-1 text-[7px] lg:text-[9px]">
                                         <span>You</span>
-                                        <Image src={Solana} alt=""/>
+                                        <Image src={Solana} alt="" />
                                         <span className="text-[#F9FF38]">4,312.71 USDC</span>
                                     </div>
                                     <div className="w-full bg-yellow rounded-md text-[6px] lg:text-[10px] text-black text-center font-semibold py-3">
@@ -180,7 +180,7 @@ export default function HowSecondsect() {
                                 <div className="flex flex-col items-center justify-between pt-4">
                                     <div className="flex flex-col items-center gap-3 text-[7px] lg:text-[9px]">
                                         <span>Carter Legal</span>
-                                        <Image src={Bitcoin} alt=""/>
+                                        <Image src={Bitcoin} alt="" />
                                         <span className="text-[#F9FF38]">4,000 EUR</span>
                                     </div>
                                     <div className="w-full bg-[#11181E52] rounded-md text-[6px] lg:text-[10px] text-yellow text-center font-semibold py-3 border border-[#F9FF3845]">
@@ -231,7 +231,7 @@ export default function HowSecondsect() {
                     </div>
                     <div className="blog-card lg:absolute lg:bottom-0 lg:left-0 p-7 lg:p-9 pb-12 flex flex-col gap-9 z-10 lg:min-h-[530px]">
                         <div className="px-6 py-6 flex flex-col items-center gap-2 border border-[#F9FF38] rounded-lg bg-[#00000082]">
-                            <Image src={Check} className="w-[50px] scale-[300%]" alt=""/>
+                            <Image src={Check} className="w-[50px] scale-[300%]" alt="" />
                             <span className="text-[12px] text-[#F9FF38]">
                                 Payment Successful!
                             </span>
@@ -303,27 +303,27 @@ export default function HowSecondsect() {
                     className="bottom-left"
                     src={BankAccount}
                     alt="bank"
-                                                        />
+                />
                 <Image
                     className="top-right"
                     src={CrossBorder}
                     alt="border"
-                                                        />
+                />
                 <Image
                     className="bottom-left"
                     src={CrossBorder}
                     alt="border"
-                                                        />
+                />
                 <Image
                     className="top-right"
                     src={CrossBorder}
                     alt="border"
-                                                        />
+                />
                 <Image
                     className="bottom-right"
                     src={CrossBorder}
                     alt="border"
-                                                        />
+                />
             </div>
         </main>
     );
