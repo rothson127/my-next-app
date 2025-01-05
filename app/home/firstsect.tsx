@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Video from "next-video";
 
-import BankAccount from "./images/background/bank-account.svg";
-import CrossBorder from "./images/background/cross-border.svg";
+import BankAccount from "../images/background/bank-account.svg";
+import CrossBorder from "../images/background/cross-border.svg";
 
-import BuyNow from "./components/buynow";
+import BuyNow from "../components/buynow";
 
 export default function Firstsect() {
     return (

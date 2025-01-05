@@ -1,5 +1,4 @@
-import FrequentlyAskedQuestions from './components/frequentlyaskedquestions';
-import FaqComponent from './faq_component';
+import FrequentlyAskedQuestions from '../components/frequentlyaskedquestions';
 
 export default function Sixthsect() {
     return (

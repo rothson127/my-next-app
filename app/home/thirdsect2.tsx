@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 
-import Fivestar from "./images/fivestar.png";
+import Fivestar from "../images/fivestar.png";
 
 export default function Thirdsect2() {
     return (

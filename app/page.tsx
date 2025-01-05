@@ -2,13 +2,13 @@
 import MarqueeBar from "./marqueebar";
 import NavBar from "./navbar";
 import Footer from "./footer";
-import Firstsect from "./firstsect";
-import Secondsect from "./secondsect";
-import Thirdsect from "./thirdsect";
-import Thirdsect2 from "./thirdsect2";
-import Fourthsect from "./fourthsect";
-import Fifthsect from "./fifthsect";
-import Sixthsect from "./sixthsect";
+import Firstsect from "./home/firstsect";
+import Secondsect from "./home/secondsect";
+import Thirdsect from "./home/thirdsect";
+import Thirdsect2 from "./home/thirdsect2";
+import Fourthsect from "./home/fourthsect";
+import Fifthsect from "./home/fifthsect";
+import Sixthsect from "./home/sixthsect";
 
 export default function Home() {
   return (

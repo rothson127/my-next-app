@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
-import Us from "./images/flags/us.png";
-import BankTransfer from "./images/bank-transfer.png";
-import Ge from "./images/flags/ge.png";
-import ButtonLeft from "./images/background/button-left.svg";
-import Stripe from "./images/bank/stripe.png";
-import Wise from "./images/bank/wise.png";
-import Coinbase from "./images/bank/coinbase.png";
+import Us from "../images/flags/us.png";
+import BankTransfer from "../images/bank-transfer.png";
+import Ge from "../images/flags/ge.png";
+import ButtonLeft from "../images/background/button-left.svg";
+import Stripe from "../images/bank/stripe.png";
+import Wise from "../images/bank/wise.png";
+import Coinbase from "../images/bank/coinbase.png";
 
 export default function Secondsect() {
     return (

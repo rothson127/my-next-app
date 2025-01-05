@@ -1,9 +1,8 @@
 import Image from 'next/image';
 
-import Fivestar from "./images/fivestar.png";
-import Tokenomic from "./images/tokenomic.png";
-import TokenomicSmall from "./images/tokenomic-small.png";
-import Noise from "./images/noise.png";
+import Tokenomic from "../images/tokenomic.png";
+import TokenomicSmall from "../images/tokenomic-small.png";
+import Noise from "../images/noise.png";
 
 export default function Fourthsect() {
     return (
