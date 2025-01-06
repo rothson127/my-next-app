@@ -1,10 +1,12 @@
+'use client';
+
 import FrequentlyAskedQuestions from '../components/frequentlyaskedquestions';
 
 export default function Sixthsect() {
     return (
-        <div>
+        <div id="sect_roadmap">
             <main className="flex flex-col items-center justify-center py-20 z-10 relative bg-roadmap">
-                <div className="w-full flex flex-col px-4 lg:px-12 2xl:px-20 gap-12 relative z-10">
+                <div className="w-full flex flex-col px-4 lg:px-12 2xl:px-20 gap-12 relative z-10" >
                     <div className="text-[40px] lg:text-[80px] font-bold leading-[46px] w-full flex justify-center">
                         <span className="text-center">
                             Explore Our <span className="text-yellow">Roadmap</span>
@@ -207,7 +209,7 @@ export default function Sixthsect() {
                     </div>
                     <div>
                         <div className="bg-faq p-4 md:p-20">
-                            <FrequentlyAskedQuestions firstpage={true}/>
+                            <FrequentlyAskedQuestions firstpage={true} />
                         </div>
                     </div>
                 </div>

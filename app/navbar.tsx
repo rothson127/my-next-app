@@ -1,11 +1,14 @@
+
+
 import Logo from "./images/logo.svg";
 import En from "./images/flags/en.svg";
 import Header from "./images/background/header.svg";
 
 import Image from 'next/image';
 import Link from 'next/link';
+import Menu from "./components/menu";
 
-export default function MarqueeBar() {
+export default function NavBar() {
     return (
         <div className="flex">
             <main className="relative z-20 w-full px-4 lg:px-12 2xl:px-20 py-5 bg-[#041019]">
@@ -30,7 +33,7 @@ export default function MarqueeBar() {
                         </Link>
                         <a
                             className="cursor-pointer text-sm text-light-white hover:text-yellow transition hidden lg:inline-block"
-                            href="/#section4">
+                            href="/#sect_tokenomic">
                             Tokenomics
                         </a>
                         <Link
@@ -107,31 +110,7 @@ export default function MarqueeBar() {
                 </div>
             </main>
             <div className="relative flex items-center gap-4 lg:hidden z-40 pr-4 lg:pr-12">
-                <svg
-                    width={28}
-                    height={20}
-                    viewBox="0 0 28 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="size-6"
-                >
-                    <rect width="27.6923" height="4.10256" rx="2.05128" fill="#F9FF38" />
-                    <rect
-                        y="15.8965"
-                        width="27.6923"
-                        height="4.10256"
-                        rx="2.05128"
-                        fill="#F9FF38"
-                    />
-                    <rect
-                        x="6.27051"
-                        y="7.69141"
-                        width="21.4224"
-                        height="4.10256"
-                        rx="2.05128"
-                        fill="#F9FF38"
-                    />
-                </svg>
+                <Menu />
             </div>
         </div>
 

@@ -2,8 +2,6 @@ import MarqueeBar from "../marqueebar";
 import NavBar from "../navbar";
 import Footer from "../footer";
 
-import Web3 from "../components/web3modaldlg";
-
 export default async function Page() {
     return (
         <div>

@@ -8,7 +8,7 @@ export default function Fifthsect() {
     return (
         <main className="flex flex-col items-center justify-center z-10 text-black">
             <div className="w-full flex flex-col items-center px-4 lg:px-12 2xl:px-20 lg:gap-12 bg-[#F2F5F6] py-12">
-                <div>
+                <div id="sect_howtobuy">
                     <div className="flex flex-col items-center">
                         <div className="relative w-fit">
                             <span className="text-[#041019] text-[40px] leading-[46px] lg:text-[80px] lg:leading-[86px] font-bold relative z-10">

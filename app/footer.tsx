@@ -155,16 +155,16 @@ export default function Footer() {
                         </div>
                         <div className="flex flex-col gap-4 md:hidden justify-between w-full items-start border-b-2 py-6 border-black text-[12px] text-black">
                             <div className="grid grid-cols-2 w-full">
-                                <a className="cursor-pointer">About</a>
-                                <a className="cursor-pointer">Tokenomics</a>
-                                <a className="cursor-pointer">Roadmap</a>
+                                <a className="cursor-pointer" href="/#sect_about">About</a>
+                                <a className="cursor-pointer" href="/#sect_tokenomic">Tokenomics</a>
+                                <a className="cursor-pointer" href="/#sect_roadmap">Roadmap</a>
                                 <a
                                     target="_blank"
                                     href="https://remittix-organization.gitbook.io/remittix"
                                 >
                                     Whitepaper
                                 </a>
-                                <a className="cursor-pointer">How to buy?</a>
+                                <a className="cursor-pointer" href="/#sect_howtobuy">How to buy?</a>
                             </div>
                             <div className="grid grid-cols-2 w-full">
                                 <a href="/privacy">
@@ -301,16 +301,16 @@ export default function Footer() {
                         </div>
                         <div className="flex justify-between w-full pt-[31px] md:pt-[51px]">
                             <div className="hidden md:flex gap-2 lg:gap-4 text-black items-start text-left text-wrap text-[15px]">
-                                <a className="cursor-pointer">About</a>
-                                <a className="cursor-pointer">Tokenomics</a>
-                                <a className="cursor-pointer">Roadmap</a>
+                                <a className="cursor-pointer" href="/#sect_about">About</a>
+                                <a className="cursor-pointer" href="/#sect_tokenomic">Tokenomics</a>
+                                <a className="cursor-pointer" href="/#sect_roadmap">Roadmap</a>
                                 <a
                                     target="_blank"
                                     href="https://remittix-organization.gitbook.io/remittix"
                                 >
                                     Whitepaper
                                 </a>
-                                <a className="cursor-pointer">How to buy?</a>
+                                <a className="cursor-pointer" href="/#sect_howtobuy">How to buy?</a>
                             </div>
                             <div className="text-left md:text-right text-wrap">
                                 <p className="text-[12px] md:text-[15px] leading-6 text-[#4C4C4C]">

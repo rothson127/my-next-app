@@ -6,7 +6,7 @@ import Noise from "../images/noise.png";
 
 export default function Fourthsect() {
     return (
-        <div  id="section4">
+        <div  id="sect_tokenomic">
             <main className="flex flex-col items-center justify-center py-10 z-10 relative">
                 <div className="w-full flex flex-col px-4 lg:px-12 2xl:px-20 gap-12 relative z-10">
                     <div className="flex flex-col items-center">

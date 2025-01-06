@@ -178,7 +178,7 @@ export default function Firstsect() {
                         </defs>
                     </svg>
                 </div>
-                <div>
+                <div id="sect_about">
                     <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-8 lg:gap-20 mt-10">
                         <div className="flex w-full justify-center mb-10 relative z-0">
                             <div className="onStep flex justify-end z-10 w-full">

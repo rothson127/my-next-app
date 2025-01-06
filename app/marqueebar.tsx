@@ -2,7 +2,7 @@ import React from 'react';
 import Marquee from 'react-fast-marquee';
 
 /*
-color: #fff;
+  color: #fff;
   background: #041019;
   font-size: 15.03px;
   font-weight: 500;*/

@@ -1,4 +1,4 @@
-//'use client';
+'use client';
 import Image from 'next/image';
 
 import EthEth from "../images/token/eth-eth.png";
@@ -7,9 +7,24 @@ import Card from "../images/token/card.png";
 import Eth from "../images/token/eth.png";
 import Logo from "../images/logo.svg";
 
+import Web3ModalDlg from "./web3modaldlg";
+
+import { useState } from 'react';
+
 import React from 'react';
 
 const BuyNow: React.FC = () => {
+
+    const [eth, setEth] = useState(true);
+
+    function handleClickEth() {
+        setEth(true);
+    }
+
+    function handleClickUsdt() {
+        setEth(false);
+    }
+
     return (
         <div>
             <div className="card-box" id="joinpresale">
@@ -52,7 +67,7 @@ const BuyNow: React.FC = () => {
                         </div>
                     </div>
                     <div className="grid grid-cols-3 gap-2">
-                        <button className="tab-btn w-full active">
+                        <button className={`tab-btn w-full ${eth && 'active'}`} onClick={handleClickEth}>
                             <Image
                                 className="size-[21.89px] md:size-[32px]"
                                 src={EthEth}
@@ -60,7 +75,7 @@ const BuyNow: React.FC = () => {
                             />
                             <span>ETH</span>
                         </button>
-                        <button className="tab-btn w-full ">
+                        <button className={`tab-btn w-full ${(!eth) && 'active'}`} onClick={handleClickUsdt}>
                             <Image
                                 className="size-[21.89px] md:size-[32px]"
                                 src={UsdtEth}
@@ -82,7 +97,7 @@ const BuyNow: React.FC = () => {
                     <div className="grid grid-cols-2 gap-2">
                         <div className="flex flex-col gap-2">
                             <div className="flex justify-between">
-                                <span className="text-yellow">ETH you pay</span>
+                                <span className="text-yellow">{eth ? "ETH" : "USDT"} you pay</span>
                                 <button className="third text-[9px] md:text-[12px] !px-2">
                                     MAX
                                 </button>
@@ -91,7 +106,7 @@ const BuyNow: React.FC = () => {
                                 <input className="w-full" defaultValue="" />
                                 <Image
                                     className="size-[21.89px] md:size-[32px]"
-                                    src={Eth}
+                                    src={eth ? Eth : UsdtEth}
                                     alt="token"
                                 />
                             </div>
