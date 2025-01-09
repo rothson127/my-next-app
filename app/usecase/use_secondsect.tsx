@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-import EthereumIcon from "../images/ethereum_icon.svg";
-import More from "../images/more.png";
-import Phantom from "../images/phantom.png";
-import Metamask from "../images/metamask.png";
-import Trustwallet from "../images/trustwallet.png";
-import Check from "../images/check.svg";
-import Header from "../images/background/header.svg";
-import BankAccount from "../images/background/bank-account.svg";
+import EthereumIcon from "../../public/images/ethereum_icon.svg";
+import More from "../../public/images/more.png";
+import Phantom from "../../public/images/phantom.png";
+import Metamask from "../../public/images/metamask.png";
+import Trustwallet from "../../public/images/trustwallet.png";
+import Check from "../../public/images/check.svg";
+import Header from "../../public/images/background/header.svg";
+import BankAccount from "../../public/images/background/bank-account.svg";
 
 export default function UseSecondsect() {
     return (

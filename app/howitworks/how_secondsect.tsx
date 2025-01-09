@@ -1,16 +1,16 @@
 import Image from 'next/image';
 
-import Line4 from "../images/line4.png";
-import Xrp from "../images/xrp.png";
-import Line1 from "../images/line1.png";
-import Solana from "../images/solana.png";
-import Bitcoin from "../images/bitcoin.png";
-import Check from "../images/check.svg";
-import Line2 from "../images/line2.png";
-import Line3 from "../images/line3.png";
-import Header from "../images/background/header.svg";
-import BankAccount from "../images/background/bank-account.svg";
-import CrossBorder from "../images/background/cross-border.svg";
+import Line4 from "../../public/images/line4.png";
+import Xrp from "../../public/images/xrp.png";
+import Line1 from "../../public/images/line1.png";
+import Solana from "../../public/images/solana.png";
+import Bitcoin from "../../public/images/bitcoin.png";
+import Check from "../../public/images/check.svg";
+import Line2 from "../../public/images/line2.png";
+import Line3 from "../../public/images/line3.png";
+import Header from "../../public/images/background/header.svg";
+import BankAccount from "../../public/images/background/bank-account.svg";
+import CrossBorder from "../../public/images/background/cross-border.svg";
 
 export default function HowSecondsect() {
     return (

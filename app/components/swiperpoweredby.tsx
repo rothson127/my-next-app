@@ -6,15 +6,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 
-import Metamask from "../images/power/metamask.png";
-import Uniswap from "../images/power/uniswap.png";
-import Ethereum from "../images/power/ethereum.png";
-import Trust from "../images/power/trust.png";
-import Openai from "../images/power/openai.png";
-import Google from "../images/power/google.png";
-import Github from "../images/power/github.png";
-import Adobe from "../images/power/adobe.png";
-import Bing from "../images/power/bing.png";
+import Metamask from "../../public/images/power/metamask.png";
+import Uniswap from "../../public/images/power/uniswap.png";
+import Ethereum from "../../public/images/power/ethereum.png";
+import Trust from "../../public/images/power/trust.png";
+import Openai from "../../public/images/power/openai.png";
+import Google from "../../public/images/power/google.png";
+import Github from "../../public/images/power/github.png";
+import Adobe from "../../public/images/power/adobe.png";
+import Bing from "../../public/images/power/bing.png";
 
 import Image from 'next/image';
 import { Autoplay } from 'swiper/modules';

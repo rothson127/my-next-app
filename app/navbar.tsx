@@ -1,4 +1,6 @@
+'use client';
 
+import * as React from "react";
 
 import Logo from "./images/logo.svg";
 import En from "./images/flags/en.svg";
@@ -89,16 +91,7 @@ export default function NavBar() {
                                 </div>
                             </div>
                         </a>
-                        <div className="relative">
-                            <div className="flex gap-1 cursor-pointer">
-                                <Image
-                                    src={En}
-                                    className="w-6 h-6 rounded-lg"
-                                    alt="flag"
-                                />
-                                <span className="leading-6 hidden md:block text-white">EN</span>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="bg-overview">

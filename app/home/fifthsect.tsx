@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import SwiperPowerdBy from '../components/swiperpoweredby';
 
-import Competition from "../images/competition.png";
+import Competition from "../../public/images/competition.png";
 
 export default function Fifthsect() {
     return (

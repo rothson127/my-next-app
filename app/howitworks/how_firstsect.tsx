@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-import Howitworks from '../images/howitworks.png';
-import HowitworksSm from '../images/howitworks-sm.png';
+import Howitworks from '../../public/images/howitworks.png';
+import HowitworksSm from '../../public/images/howitworks-sm.png';
 
 export default function HowFirstsect() {
     return (

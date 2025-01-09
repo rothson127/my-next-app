@@ -209,7 +209,7 @@ export default function Sixthsect() {
                     </div>
                     <div>
                         <div className="bg-faq p-4 md:p-20">
-                            <FrequentlyAskedQuestions firstpage={true} />
+                            <FrequentlyAskedQuestions firstpage={true}/>
                         </div>
                     </div>
                 </div>

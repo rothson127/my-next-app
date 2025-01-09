@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Logo from "../images/logo.svg";
-import BlogPic1 from "../images/blog/blog-pic1.png";
-import BlogPic2 from "../images/blog/blog-pic2.png";
-import BlogPic3 from "../images/blog/blog-pic3.png";
-import BlogPic4 from "../images/blog/blog-pic4.png";
-import BlogPic5 from "../images/blog/blog-pic5.png";
-import BlogPic6 from "../images/blog/blog-pic6.png";
-import Header from "../images/background/header.svg";
-import BankAccount from "../images/background/bank-account.svg";
+import Logo from "../../public/images/logo.svg";
+import BlogPic1 from "../../public/images/blog/blog-pic1.png";
+import BlogPic2 from "../../public/images/blog/blog-pic2.png";
+import BlogPic3 from "../../public/images/blog/blog-pic3.png";
+import BlogPic4 from "../../public/images/blog/blog-pic4.png";
+import BlogPic5 from "../../public/images/blog/blog-pic5.png";
+import BlogPic6 from "../../public/images/blog/blog-pic6.png";
+import Header from "../../public/images/background/header.svg";
+import BankAccount from "../../public/images/background/bank-account.svg";
 
 export default function BlogSecondsect() {
     return (

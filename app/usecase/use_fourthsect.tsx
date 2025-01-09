@@ -1,8 +1,8 @@
 import Image from "next/image";
-import LeftBracket from "../images/left-bracket.png";
-import RightBracket from "../images/right-bracket.png";
-import Upwork from "../images/upwork.png";
-import Freelancer from "../images/freelancer.png";
+import LeftBracket from "../../public/images/left-bracket.png";
+import RightBracket from "../../public/images/right-bracket.png";
+import Upwork from "../../public/images/upwork.png";
+import Freelancer from "../../public/images/freelancer.png";
 
 export default function UseFourthsect() {
     return (

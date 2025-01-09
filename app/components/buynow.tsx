@@ -1,11 +1,11 @@
 'use client';
 import Image from 'next/image';
 
-import EthEth from "../images/token/eth-eth.png";
-import UsdtEth from "../images/token/usdt-eth.png";
-import Card from "../images/token/card.png";
-import Eth from "../images/token/eth.png";
-import Logo from "../images/logo.svg";
+import EthEth from "../../public/images/token/eth-eth.png";
+import UsdtEth from "../../public/images/token/usdt-eth.png";
+import Card from "../../public/images/token/card.png";
+import Eth from "../../public/images/token/eth.png";
+import Logo from "../../public/images/logo.svg";
 
 import Web3ModalDlg from "./web3modaldlg";
 

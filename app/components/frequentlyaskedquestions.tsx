@@ -138,12 +138,12 @@ const FrequentlyAskedQuestions: React.FC<FAQProps> = ({ firstpage }) => {
                     questionData.map((question) => (
                         (currentButton === question.type) ?
                             (
-                                <button className={`px-2 md:px-8 py-1 md:py-2 text-[14.55px] md:text-[25px] font-semibold border  rounded-full cursor-pointer overflow-hidden whitespace-nowrap text-ellipsis ${firstpage ? 'text-black border-white bg-yellow' : 'text-yellow border-black bg-black'}`} onClick={() => handleClickButton(question.type)}>
+                                <button className={`px-2 md:px-8 py-1 md:py-2 text-[14.55px] md:text-[25px] font-semibold border  rounded-full cursor-pointer overflow-hidden whitespace-nowrap text-ellipsis ${firstpage ? 'text-black border-white bg-yellow' : 'text-yellow border-black bg-black'}`} onClick={() => handleClickButton(question.type)} key={question.type}>
                                     {question.type}
                                 </button>
                             ) :
                             (
-                                <button className={`px-2 md:px-8 py-1 md:py-2 text-[14.55px] md:text-[25px] font-semibold border rounded-full cursor-pointer overflow-hidden whitespace-nowrap text-ellipsis ${firstpage ? 'text-white border-white' : 'text-black border-black bg-white'}`} onClick={() => handleClickButton(question.type)}>
+                                <button className={`px-2 md:px-8 py-1 md:py-2 text-[14.55px] md:text-[25px] font-semibold border rounded-full cursor-pointer overflow-hidden whitespace-nowrap text-ellipsis ${firstpage ? 'text-white border-white' : 'text-black border-black bg-white'}`} onClick={() => handleClickButton(question.type)} key={question.type}>
                                     {question.type}
                                 </button>
                             )
@@ -155,7 +155,7 @@ const FrequentlyAskedQuestions: React.FC<FAQProps> = ({ firstpage }) => {
                     questionData.map((question) => (
                         (question.type === currentButton) && (
                             question.data.map((questions) => (
-                                <div className="grid md:grid-cols-[80px_1fr]">
+                                <div className="grid md:grid-cols-[80px_1fr]" key={question.type + questions.question}>
                                     <div className="hidden md:flex faq-item mt-2 items-center justify-center linear-border-top-left">
                                         <svg
                                             width={32}
