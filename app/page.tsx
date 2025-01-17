@@ -12,22 +12,24 @@ import Sixthsect from "./home/sixthsect";
 
 export default function Home() {
   return (
-    <div>
-      <MarqueeBar />
-      <NavBar />
 
-      <div className="relative z-30">
-          <Firstsect />
-          <Secondsect />
-          <Thirdsect />
-          <Thirdsect2 />
-          <Fourthsect />
-          <Fifthsect />
-          <Sixthsect />
-      </div>
+        <div>
+          <MarqueeBar />
+          <NavBar />
 
-      <Footer />
-    </div>
+          <div className="relative z-30">
+            <Firstsect />
+            <Secondsect />
+            <Thirdsect />
+            <Thirdsect2 />
+            <Fourthsect />
+            <Fifthsect />
+            <Sixthsect />
+          </div>
+
+          <Footer />
+        </div>
+
 
   );
 }
